@@ -1,3 +1,4 @@
+
 let diskon;
 let jenis = 'C';
 let harga = 10000;
