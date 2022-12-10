@@ -1,12 +1,12 @@
-var masuk = 11;
-var keluar = 12;
+var masuk = 10;
+var keluar = 11;
 
-function menentukanlamakerja(masuk, keluar){
-   if( keluar > masuk){
-   return lama = masuk - keluar
+function lama(){
+   if(keluar > masuk ){
+   return (keluar - masuk+ ' jam' )
    }else{
-   return lama = (12 - masuk)+keluar   
+   return ((12 - masuk)+keluar + ' jam' )   
    }
 }
 
-console.log(menentukanlamakerja(lama))
+console.log(lama())

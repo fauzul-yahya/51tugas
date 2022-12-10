@@ -1,24 +1,18 @@
-var masuk = 10;
-var keluar = 11;
+let masuk = 10 ;
+let keluar = 6;
 
-function lama(){
-   if(keluar > masuk ){
-   console.log( keluar - masuk + ' jam')
-   }else{
-   console.log( (12 - masuk)+keluar +' jam')   
-   }
+
+if(keluar >= masuk){
+   lama = keluar - masuk
+}else{
+   lama = (12 - masuk)+keluar
 }
 
-console.log( varlama())
 
-
-function biaya(){   
- if(lama > 2){
-    let biaya= 'Rp.'+( 2000 + ((lama -2)*500))
-   return biaya
- }else{
-  let biaya = 'Rp.'+(2000)
-   return biaya
- }
+if(lama > 2){
+   biaya = 2000 + ((lama - 2)*500)
+}else{
+   biaya = 2000
 }
-console.log(biaya())
+
+console.log('Biaya ='+biaya)
